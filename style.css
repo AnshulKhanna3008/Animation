@@ -140,3 +140,33 @@ body {
     text-align: center;
     margin-top: 10px;
 }
+@media (max-width: 768px) {
+    #text {
+        font-size: 6vw;
+        top: 5%;
+    }
+
+    #scroll-div h1, #scroll-div2 h1, #scroll-div3 h1 {
+        font-size: 12vw;
+    }
+
+    #main img {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    #text {
+        font-size: 8vw;
+        top: 4%;
+    }
+
+    #scroll-div h1, #scroll-div2 h1, #scroll-div3 h1 {
+        font-size: 14vw;
+        margin-right: 20px;
+    }
+
+    #main img {
+        max-width: 200px;
+    }
+}
