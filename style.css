@@ -142,16 +142,26 @@ body {
 }
 @media (max-width: 768px) {
     #text {
-        font-size: 6vw;
+        font-size: 3vw;
         top: 5%;
     }
 
-    #scroll-div h1, #scroll-div2 h1, #scroll-div3 h1 {
-        font-size: 12vw;
+    #scroll-div h1,
+    #scroll-div2 h1,
+    #scroll-div3 h1 {
+        font-size: 10vw;
     }
 
     #main img {
-        max-width: 300px;
+        max-width: 290px;
+        max-height: 550px;
+    }
+
+    #scroll-div h1,
+    #scroll-div2 h1,
+    #scroll-div3 h1 {
+        animation-duration: 2s;
+        /* Adjusting speed for smaller screens */
     }
 }
 
@@ -160,6 +170,26 @@ body {
         font-size: 8vw;
         top: 4%;
     }
+
+    #scroll-div h1,
+    #scroll-div2 h1,
+    #scroll-div3 h1 {
+        font-size: 14vw;
+        margin-right: 20px;
+    }
+
+    #main img {
+        max-width: auto;
+        max-height: 600px;
+    }
+
+    #scroll-div h1,
+    #scroll-div2 h1,
+    #scroll-div3 h1 {
+        animation-duration: 1s;
+        /* Slower speed for smaller screens */
+    }
+}
 
     #scroll-div h1, #scroll-div2 h1, #scroll-div3 h1 {
         font-size: 14vw;
